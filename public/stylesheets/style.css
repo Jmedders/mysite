@@ -1,8 +1,25 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #EFECCA;
 }
 
 a {
   color: #00B7FF;
 }
+h4{
+  color: #002F2F;
+}
+h1{
+  font-size: 4em;
+  font-family: 'Permanent Marker'
+}
+
+/*$fontHeadings: #E6E2AF;
+$backgroundColor: #002F2F;
+$activeColor: #C84663;
+$infoHoverFont: #EFECCA;
+$listFont: #A7A37E;
+$buttonColor1: #00d6f7;
+$mainButtonColor: #19c8e3;
+$secondaryButtonColor: #2d3133;*/

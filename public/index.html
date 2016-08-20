@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mysiteApp">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="javascripts/app.js" charset="utf-8"></script>
+  <script src="javascripts/controllers/controllers.js" charset="utf-8"></script>
+  <script src="javascripts/services/services.js" charset="utf-8"></script>
+  <script src="javascripts/directives/directives.js" charset="utf-8"></script>
 </head>
-<body>
-  <h2>Hi</h2>
+<body ng-controller="mainController">
+  <h1>Jeffrey Medders</h1>
+  <h4>This site is made by: {{myself}}</h4>
 </body>
 </html>
