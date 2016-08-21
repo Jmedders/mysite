@@ -29,6 +29,7 @@ h4 {
   margin-bottom: 20px; }
 
 .jeffInfo {
+  text-align: center;
   color: #002F2F; }
   .jeffInfo:hover {
     color: #EFECCA; }
