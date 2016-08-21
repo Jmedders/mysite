@@ -1,6 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: lavender;
+  background: #606072;
 }
 
 a {
@@ -11,7 +11,12 @@ h4{
 }
 #myName{
   font-size: 4em;
-  font-family: 'Permanent Marker'
+  font-family: 'Balthazar';
+  color: #81CB75;
+}
+#title{
+  font-family: 'Balthazar';
+  color: #301924;
 }
 #picturesOfMe{
   height: 40%;
@@ -43,3 +48,10 @@ $listFont: #A7A37E;
 $buttonColor1: #00d6f7;
 $mainButtonColor: #19c8e3;
 $secondaryButtonColor: #2d3133;*/
+
+
+/*dark purple #301924
+light gray #606072
+dark gray #434653
+dark green #325A40
+light green #81CB75*/
