@@ -5,7 +5,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheets/style.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Balthazar">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
   <script src="javascripts/app.js" charset="utf-8"></script>
@@ -18,19 +19,29 @@
   <div id="left">
     <h1 id="myName">Jeffrey Medders</h1>
     <img id="picturesOfMe" ng-src="longscrop.jpg" alt="Picture of jeff">
-    <h3 id="title">Full Stack Developer</h3>
+    <h3 id="title">Full Stack Web Developer</h3>
+    <a href="mailto:medders.jeffrey@gmail.com">Send me an email:
+      <span class="fa fa-envelope-o"></span>
+    </a>
+    <br>
+    <a href="https://www.linkedin.com/in/jeffrey-medders-7a5ba1bb">
+      <span class="fa fa-linkedin-square"></span>
+    </a>
+    <a href="https://github.com/Jmedders">
+      <span class="fa fa-github"></span>
+    </a>
   </div>
   <div id="right">
-    <h3 ng-click="view.portfolio = !view.portfolio">Portfolio</h3>
-    <p ng-show="view.portfolio">GenreAtor</p>
-    <h3 ng-click="view.education = !view.education">Education</h3>
-    <p ng-show="view.education">University of Oklahoma</p>
-    <h3 ng-click="view.experience = !view.experience">Experience</h3>
-    <p ng-show="view.experience">Tundra</p>
-    <h3 ng-click="view.languages = !view.languages">Languages</h3>
-    <p ng-show="view.languages">Javascript, Angular</p>
-    <h3 ng-click="view.aboutme = !view.aboutme">About Me</h3>
-    <p ng-show="view.aboutme">My Bloody Valentine</p>
+    <h2 class="jeffInfo" ng-click="view.portfolio = !view.portfolio">Portfolio</h2>
+    <p ng-show="view.portfolio">GenreAtor, HitchBike, KyotoFM</p>
+    <h2 class="jeffInfo" ng-click="view.education = !view.education">Education</h2>
+    <p ng-show="view.education">University of Oklahoma B.S. Biology 2013, Galvanize 2016</p>
+    <h2 class="jeffInfo" ng-click="view.experience = !view.experience">Experience</h2>
+    <p ng-show="view.experience">Tundra Restaurant Supply Company (2015), Target(2014), University of Oklahoma - Weider Lab (2011-2013), Florida Insitute of Technology - Librarian Assistant(2009-2010)</p>
+    <h2 class="jeffInfo "ng-click="view.languages = !view.languages">Languages and Frameworks</h2>
+    <p ng-show="view.languages">JavaScript, SQL/PostgreSQL, Node|Express, AngularJS, HTML5|CSS, Sass, TDD, Agile workflow</p>
+    <h2 class="jeffInfo" ng-click="view.aboutme = !view.aboutme">About Me</h2>
+    <p ng-show="view.aboutme">I live in the Boulder/Denver area of Colorado. I love exploring Colorado's abundance of mountains and forests. I'm obsessed with music, feel free to check my band out: <a ng-href="https://www.soundcloud.com/adult-colour"><span class="fa fa-soundcloud" aria-hidden="true"> Soundcloud </span></a></p>
   </div>
 
 </body>
