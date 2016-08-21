@@ -17,11 +17,16 @@
   <h1 id="myName">Jeffrey Medders</h1>
   <div id="left"><img id="picturesOfMe" ng-src="longscrop.jpg" alt="Picture of jeff"></div>
   <div id="right">
-    <h3 ng-click="view.portfoliofn()">Portfolio</h3>
-    <h3 ng-click="view.educationfn()">Education</h3>
-    <h3 ng-click="view.experiencefn()">Experience</h3>
-    <h3 ng-click="view.languagesfn()">Languages</h3>
-    <h3 ng-click="view.aboutmefn()">About Me</h3>
+    <h3 ng-click="view.portfolio = !view.portfolio">Portfolio</h3>
+    <p ng-show="view.portfolio">GenreAtor</p>
+    <h3 ng-click="view.education = !view.education">Education</h3>
+    <p ng-show="view.education">University of Oklahoma</p>
+    <h3 ng-click="view.experience = !view.experience">Experience</h3>
+    <p ng-show="view.experience">Tundra</p>
+    <h3 ng-click="view.languages = !view.languages">Languages</h3>
+    <p ng-show="view.languages">Javascript, Angular</p>
+    <h3 ng-click="view.aboutme = !view.aboutme">About Me</h3>
+    <p ng-show="view.aboutme">My Bloody Valentine</p>
   </div>
 
 </body>
