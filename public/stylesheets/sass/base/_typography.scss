@@ -1,39 +1,41 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #606072; }
+  background: #606072;
+}
 
 a {
-  color: #00B7FF; }
-
-h4 {
-  color: #002F2F; }
-
-#myName {
+  color: #00B7FF;
+}
+h4{
+  color: #002F2F;
+}
+#myName{
   font-size: 4em;
   font-family: 'Balthazar';
-  color: #E6E2AF; }
-
-#title {
+  color: #E6E2AF;
+}
+#title{
   font-family: 'Balthazar';
-  color: #002F2F; }
-
-#picturesOfMe {
+  color: $forestgreen;
+}
+#picturesOfMe{
   height: 40%;
   width: 40%;
-  border-radius: 30%; }
-
-#left {
+  border-radius: 30%;
+}
+#left{
   display: inline-block;
   text-align: center;
   width: 50%;
-  margin-bottom: 20px; }
-
-.jeffInfo {
-  color: #002F2F; }
-  .jeffInfo:hover {
-    color: #EFECCA; }
-
-#right {
+  margin-bottom: 20px;
+}
+.jeffInfo{
+  color: $forestgreen;
+  &:hover {
+    color: $lightsand;
+  }
+}
+#right{
   margin-top: 20vh;
   display: flex;
   /*justify-content: center;*/
@@ -42,6 +44,5 @@ h4 {
   align-items: center;
   float: right;
   /*padding-right: 10vw;*/
-  width: 50%; }
-
-/*# sourceMappingURL=style.css.map */
+  width: 50%;
+}
