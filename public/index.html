@@ -14,8 +14,12 @@
   <script src="javascripts/directives/directives.js" charset="utf-8"></script>
 </head>
 <body ng-controller="mainController">
-  <h1 id="myName">Jeffrey Medders</h1>
-  <div id="left"><img id="picturesOfMe" ng-src="longscrop.jpg" alt="Picture of jeff"></div>
+
+  <div id="left">
+    <h1 id="myName">Jeffrey Medders</h1>
+    <img id="picturesOfMe" ng-src="longscrop.jpg" alt="Picture of jeff">
+    <h3 id="title">Full Stack Developer</h3>
+  </div>
   <div id="right">
     <h3 ng-click="view.portfolio = !view.portfolio">Portfolio</h3>
     <p ng-show="view.portfolio">GenreAtor</p>

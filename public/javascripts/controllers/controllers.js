@@ -5,5 +5,5 @@ $scope.view.portfolio = false;
 $scope.view.education = false;
 $scope.view.experience = false;
 $scope.view.languages = false;
-$scope.view.aboutme = false;
+$scope.view.aboutme = false; 
 }])
