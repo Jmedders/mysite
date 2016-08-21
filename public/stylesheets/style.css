@@ -14,7 +14,24 @@ h4{
   font-size: 4em;
   font-family: 'Permanent Marker'
 }
-
+#picturesOfMe{
+  height: 40%;
+  width: 40%;
+  border-radius: 40%;
+  margin-right: 30%;
+}
+#left{
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+#right{
+  float: right;
+  text-align: right;
+  padding-right: 10vw;
+  width: 50%;
+}
 /*$fontHeadings: #E6E2AF;
 $backgroundColor: #002F2F;
 $activeColor: #C84663;
