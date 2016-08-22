@@ -60,4 +60,25 @@ a {
   align-items: center;
   flex-direction: column; }
 
+#portfolioInfo {
+  padding-right: 0.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+#experienceInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.headerColor {
+  color: #81CB75; }
+
+.techList {
+  font-size: 2em;
+  color: #301924; }
+
+.liEle:hover {
+  color: #81CB75; }
+
 /*# sourceMappingURL=style.css.map */

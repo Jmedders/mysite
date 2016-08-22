@@ -1,3 +1,4 @@
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: $lightgray;
@@ -65,4 +66,27 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+#portfolioInfo{
+  padding-right: 0.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#experienceInfo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.headerColor {
+  color: $lightgreen;
+}
+.techList {
+  font-size: 2em;
+  color: $darkpurple;
+}
+.liEle{
+  &:hover {
+    color: $lightgreen;
+  }
 }
