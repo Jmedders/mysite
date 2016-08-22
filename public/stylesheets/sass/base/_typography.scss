@@ -6,17 +6,17 @@ body {
 a {
   color: #00B7FF;
 }
-h4{
-  color: #002F2F;
-}
 #myName{
   font-size: 4em;
   font-family: 'Balthazar';
-  color: #E6E2AF;
+  color: $lightgreen;
+  &:hover {
+    color: $darkpurple;
+  }
 }
 #title{
   font-family: 'Balthazar';
-  color: $forestgreen;
+  color: $lightgreen;
 }
 #picturesOfMe{
   height: 40%;
@@ -46,4 +46,14 @@ h4{
   float: right;
   /*padding-right: 10vw;*/
   width: 50%;
+}
+
+.projectLinks {
+  margin-left: 43%;
+  font-size: 1.25em;
+}
+.fontColorClass {
+  color: $lightgreen;
+  padding-right: 4px;
+  text-align: justify;
 }
