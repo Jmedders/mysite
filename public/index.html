@@ -34,21 +34,43 @@
   </div>
   <div id="right">
     <h2 class="jeffInfo" ng-click="view.portfolio = !view.portfolio">Portfolio</h2>
-    <div ng-show="view.portfolio">
+    <div id="portfolioInfo" ng-show="view.portfolio">
       <a class="projectLinks" ng-href="https://genrestuff.firebaseapp.com/">GenREator</a>
-      <h4 class="fontColorClass">An effort to increase knowledge on genres of music and discover new bands by giving information about any genre and the names of bands of said genre. Additionally the user has the option to listen on Spotify.</h4>
-      <a class="projectLinks" ng-href="https://hitchbike.herokuapp.com/">HitchBike</a>
-      <h4 class="fontColorClass">A marketplace where travellers can rent bikes from locals in the area for short periods of time instead of having to pay more to rent out a bike from a commercial bike company.</h4>
+      <h4 class="fontColorClass">An effort to increase knowledge on musical genres and assist in the discovery of new bands. The app provides information about any genre and the names of bands of said genre. Additionally the user has the option to listen on Spotify.</h4>
       <a class="projectLinks" ng-href="https://hitchbike.herokuapp.com/">KyotoFM</a>
       <h4 class="fontColorClass">An organization tool and setlist management app for musicians and bands. It doubles as a way for fans of a band to see setlists from particular shows.</h4>
+      <a class="projectLinks" ng-href="https://hitchbike.herokuapp.com/">HitchBike</a>
+      <h4 class="fontColorClass">A marketplace where travellers can rent bikes from locals in the area for short periods of time instead of having to pay more to rent out a bike from a commercial bike company.</h4>
     </div>
 
     <h2 class="jeffInfo" ng-click="view.education = !view.education">Education</h2>
-    <p ng-show="view.education">University of Oklahoma B.S. Biology 2013, Galvanize 2016</p>
+    <div id="educationInfo" ng-show="view.education">
+      <h4>Galvanize (April-September 2016)</h4>
+      <h5 class="fontColorClass">Full Stack Student</h5>
+      <h4>University of Oklahoma (2013)</h4>
+      <h5 class="fontColorClass">B.S. Biology with a focus in Ecology &amp; Evolutionary Biology</h5>
+      <h5 class="fontColorClass">Russian Language Minor</h5>
+    </div>
     <h2 class="jeffInfo" ng-click="view.experience = !view.experience">Experience</h2>
-    <p ng-show="view.experience">Tundra Restaurant Supply Company (2015), Target(2014), University of Oklahoma - Weider Lab (2011-2013), Florida Insitute of Technology - Librarian Assistant(2009-2010)</p>
+    <div ng-show="view.experience">
+      <h4>Tundra Restaurant Supply Company - 2015</h4>
+      <h4>Target(2014)</h4>
+      <h4>University of Oklahoma - Weider Lab (2011-2013)</h4>
+      <h4>Florida Insitute of Technology - Librarian Assistant(2009-2010)</h4>
+    </div>
     <h2 class="jeffInfo "ng-click="view.languages = !view.languages">Languages | Frameworks | Skills</h2>
-    <p ng-show="view.languages">JavaScript, SQL/PostgreSQL, Node|Express, AngularJS, HTML5|CSS, Sass, TDD, Agile workflow</p>
+    <div ng-show="view.languages">
+      <ul>
+        <li>JavaScript</li>
+        <li>SQL/PostgreSQL</li>
+        <li>Node|Express</li>
+        <li>AngularJS</li>
+        <li>HTML5|CSS</li>
+        <li>Sass</li>
+        <li>TDD</li>
+        <li>Agile workflow</li>
+      </ul>
+    </div>
     <h2 class="jeffInfo" ng-click="view.aboutme = !view.aboutme">About Me</h2>
     <p ng-show="view.aboutme">I live in the Boulder/Denver area. I love exploring Colorado's abundance of mountains and forests. I'm obsessed with music. Feel free to check my band out: <a ng-href="https://www.soundcloud.com/adult-colour"><span class="fa fa-soundcloud fa-2x" aria-hidden="true"> Soundcloud </span></a></p>
   </div>

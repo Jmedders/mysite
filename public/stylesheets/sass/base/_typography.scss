@@ -1,6 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #606072;
+  background: $lightgray;
 }
 
 a {
@@ -9,14 +9,14 @@ a {
 #myName{
   font-size: 4em;
   font-family: 'Balthazar';
-  color: $lightgreen;
+  color: $lightsand;
   &:hover {
     color: $darkpurple;
   }
 }
 #title{
   font-family: 'Balthazar';
-  color: $lightgreen;
+  color: $lightsand;
 }
 #picturesOfMe{
   height: 40%;
@@ -49,11 +49,20 @@ a {
 }
 
 .projectLinks {
-  margin-left: 43%;
+  // margin-left: 43%;
   font-size: 1.25em;
+  color: $lightgreen;
+  &:hover {
+    color: #00B7FF;
+  }
 }
 .fontColorClass {
-  color: $lightgreen;
+  color: $darkpurple;
   padding-right: 4px;
   text-align: justify;
+}
+#educationInfo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

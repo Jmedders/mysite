@@ -8,13 +8,13 @@ a {
 #myName {
   font-size: 4em;
   font-family: 'Balthazar';
-  color: #81CB75; }
+  color: #EFECCA; }
   #myName:hover {
     color: #301924; }
 
 #title {
   font-family: 'Balthazar';
-  color: #81CB75; }
+  color: #EFECCA; }
 
 #picturesOfMe {
   height: 40%;
@@ -45,12 +45,19 @@ a {
   width: 50%; }
 
 .projectLinks {
-  margin-left: 43%;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  color: #81CB75; }
+  .projectLinks:hover {
+    color: #00B7FF; }
 
 .fontColorClass {
-  color: #81CB75;
+  color: #301924;
   padding-right: 4px;
   text-align: justify; }
+
+#educationInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
 
 /*# sourceMappingURL=style.css.map */
