@@ -42,7 +42,7 @@ a {
   }
 }
 #right{
-  margin-top: 20vh;
+  margin-top: 12vh;
   display: flex;
   overflow-y: auto !important;
   /*justify-content: center;*/
@@ -64,7 +64,7 @@ a {
 }
 .fontColorClass {
   color: $darkpurple;
-  padding-right: 4px;
+  padding-left: 4px;
   text-align: justify;
 }
 #educationInfo{
@@ -77,7 +77,10 @@ a {
     span {
       display: none;
     }
-    &:before {content: "Я говорю немного по-русски!"}
+    &:before {
+      content: "Я говорю немного по-русски!";
+      color: #EFECCA;
+    }
   }
 }
 #portfolioInfo{

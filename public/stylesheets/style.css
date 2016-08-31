@@ -40,7 +40,7 @@ a {
     color: #EFECCA; }
 
 #right {
-  margin-top: 20vh;
+  margin-top: 12vh;
   display: flex;
   overflow-y: auto !important;
   /*justify-content: center;*/
@@ -59,7 +59,7 @@ a {
 
 .fontColorClass {
   color: #301924;
-  padding-right: 4px;
+  padding-left: 4px;
   text-align: justify; }
 
 #educationInfo {
@@ -70,7 +70,8 @@ a {
 #rusWords:hover span {
   display: none; }
 #rusWords:hover:before {
-  content: "Я говорю немного по-русски!"; }
+  content: "Я говорю немного по-русски!";
+  color: #EFECCA; }
 
 #portfolioInfo {
   padding-right: 0.5em;
@@ -95,5 +96,24 @@ a {
 
 .liEle:hover {
   color: #81CB75; }
+
+@media (max-width: 800px) {
+  body {
+    overflow: auto; } }
+@media (max-width: 800px) {
+  #right {
+    padding: 0 1vw 0 1vw;
+    margin-top: 0vh;
+    display: block;
+    clear: both;
+    float: none;
+    width: 100vw; } }
+@media (max-width: 800px) {
+  #left {
+    background-size: 100vw 100vh;
+    display: block;
+    clear: both;
+    float: none;
+    width: 100vw; } }
 
 /*# sourceMappingURL=style.css.map */
