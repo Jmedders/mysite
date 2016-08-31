@@ -1,7 +1,10 @@
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: $lightgray;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    background: #656782;
 }
 
 a {
@@ -10,10 +13,7 @@ a {
 #myName{
   font-size: 4em;
   font-family: 'Balthazar';
-  color: $lightsand;
-  &:hover {
-    color: $darkpurple;
-  }
+  color: $darkpurple;
 }
 #title{
   font-family: 'Balthazar';
@@ -25,9 +25,13 @@ a {
   border-radius: 30%;
 }
 #left{
+  background-image: url("recent.jpg");
+  background-size: 50vw 100vh;
+  height: 100vh;
   display: inline-block;
   text-align: center;
   width: 50%;
+  overflow: hidden;
   margin-bottom: 20px;
 }
 .jeffInfo{
@@ -40,6 +44,7 @@ a {
 #right{
   margin-top: 20vh;
   display: flex;
+  overflow-y: auto !important;
   /*justify-content: center;*/
   flex-direction: column;
   justify-content: center;
@@ -67,16 +72,27 @@ a {
   align-items: center;
   flex-direction: column;
 }
+#rusWords {
+  &:hover {
+    span {
+      display: none;
+    }
+    &:before {content: "Я говорю немного по-русски!"}
+  }
+}
 #portfolioInfo{
   padding-right: 0.5em;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-#experienceInfo{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+#listLeft {
+  display: inline-block;
+  float: left;
+}
+#listRight {
+  display: inline-block;
+  float: right;
 }
 .headerColor {
   color: $lightgreen;

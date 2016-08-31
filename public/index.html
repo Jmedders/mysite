@@ -18,7 +18,7 @@
 
   <div id="left">
     <h1 id="myName">Jeffrey Medders</h1>
-    <img id="picturesOfMe" ng-src="longscrop.jpg" alt="Picture of jeff">
+    <!-- <img id="picturesOfMe" ng-src="longscrop.jpg" alt="Picture of jeff"> -->
     <h3 id="title">Full Stack Web Developer</h3>
     <a href="mailto:medders.jeffrey@gmail.com">
       <span class="fa fa-envelope-o fa-3x"></span>
@@ -33,7 +33,7 @@
     </a>
   </div>
   <div id="right">
-    <h2 class="jeffInfo" ng-click="view.portfolio = !view.portfolio">Portfolio</h2>
+    <h2 class="jeffInfo" ng-click="view.portfoliofn()">Portfolio</h2>
     <div id="portfolioInfo" ng-show="view.portfolio">
       <a class="projectLinks" ng-href="https://genrestuff.firebaseapp.com/">GenREator</a>
       <h4 class="fontColorClass">An effort to increase knowledge on musical genres and assist in the discovery of new bands. The app provides information about any genre and the names of bands of said genre. Additionally the user has the option to listen on Spotify.</h4>
@@ -43,39 +43,34 @@
       <h4 class="fontColorClass">A marketplace where travellers can rent bikes from locals in the area for short periods of time instead of having to pay more to rent out a bike from a commercial bike company.</h4>
     </div>
 
-    <h2 class="jeffInfo" ng-click="view.education = !view.education">Education</h2>
+    <h2 class="jeffInfo" ng-click="view.educationfn()">Education</h2>
     <div id="educationInfo" ng-show="view.education">
       <h3 class="headerColor">Galvanize (April-September 2016)</h3>
       <h4 class="fontColorClass">Full Stack Student</h4>
       <h3 class="headerColor">University of Oklahoma (2013)</h3>
       <h4 class="fontColorClass">B.S. Biology with a focus in Ecology &amp; Evolutionary Biology</h4>
-      <h4 class="fontColorClass">Russian Language Minor</h4>
+      <h4 id="rusWords" class="fontColorClass"><span>Russian Language Minor</span></h4>
     </div>
-    <h2 class="jeffInfo" ng-click="view.experience = !view.experience">Experience</h2>
-    <div id="experienceInfo" ng-show="view.experience">
-      <h4 class="headerColor">Material Handler - Tundra Restaurant Supply (2015)</h4>
-      <h4 class="fontColorClass">Trained others in job duties and showcased warehouse operations to potential investors</h4>
-      <h4 class="headerColor">Personal Assistant - Susan Harriman (2014)</h4>
-      <h4 class="fontColorClass">Created and maintained Excel spreadsheets for tax filing purposes and organized documents and receipts</h4>
-      <h4 class="headerColor">Laboratory Technician - Weider Lab (2011-2013)</h4>
-      <h4 class="fontColorClass">Trained new lab members, assisted with the projects of others, and conducted my own research studying ecological genetics</h4>
-      <h4 class="headerColor">Library Assistant - Florida Insitute of Technology (2010)</h4>
-      <h4 class="fontColorClass">Worked with electronic resources and government documents in Technical Services Deptartment and used Marcive, OCLC, &amp; Sirsi Symphony to catalog</h4>
-    </div>
-    <h2 class="jeffInfo "ng-click="view.languages = !view.languages">Languages | Frameworks | Skills</h2>
+    <h2 class="jeffInfo "ng-click="view.languagesfn()">Languages | Frameworks | Skills</h2>
     <div id="experienceInfo" ng-show="view.languages">
-      <ul class="techList">
-        <li class="liEle">JavaScript</li>
-        <li class="liEle">SQL/PostgreSQL</li>
-        <li class="liEle">Node|Express</li>
-        <li class="liEle">AngularJS</li>
-        <li class="liEle">HTML5|CSS</li>
-        <li class="liEle">Sass</li>
-        <li class="liEle">TDD</li>
-        <li class="liEle">Agile workflow</li>
-      </ul>
+      <div id="listLeft">
+        <ul class="techList">
+          <li class="liEle">JavaScript</li>
+          <li class="liEle">SQL/PostgreSQL</li>
+          <li class="liEle">Node|Express</li>
+          <li class="liEle">AngularJS</li>
+        </ul>
+      </div>
+      <div id="listRight">
+        <ul class="techList">
+          <li class="liEle">HTML5|CSS</li>
+          <li class="liEle">Sass</li>
+          <li class="liEle">TDD</li>
+          <li class="liEle">Agile workflow</li>
+        </ul>
+      </div>
     </div>
-    <h2 class="jeffInfo" ng-click="view.aboutme = !view.aboutme">About Me</h2>
+    <h2 class="jeffInfo" ng-click="view.aboutmefn()">About Me</h2>
     <div id="portfolioInfo" ng-show="view.aboutme">
       <h4 class="fontColorClass">I live in the Boulder/Denver area. I love exploring Colorado's abundance of mountains and forests. I'm obsessed with music. Feel free to check my band out:
         <a ng-href="https://www.soundcloud.com/adult-colour">
