@@ -1,3 +1,33 @@
+@media(max-width: 450px){
+  .headerColor {
+    font-size: 1.50em;
+  }
+}
+@media(max-width: 450px){
+  .fontColorClass {
+    text-align: center;
+  }
+}
+@media(max-width: 450px){
+  #listLeft {
+    margin: 0 20vw 0 20vw;
+    float: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+@media(max-width: 450px){
+  #listRight{
+    padding-top: 0;
+    margin: 0 20vw 0 20vw;
+    float: none;
+  }
+}
+@media(max-width: 450px){
+  #schoolmajor {
+    text-align: center;
+  }
+}
 @media(max-width: 800px){
   body{
     overflow: auto;
