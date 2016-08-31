@@ -1,14 +1,14 @@
-@media(max-width: 450px){
+@media only screen and(max-width: 450px){
   .headerColor {
     font-size: 1.50em;
   }
 }
-@media(max-width: 450px){
+@media only screen and(max-width: 450px){
   .fontColorClass {
     text-align: center;
   }
 }
-@media(max-width: 450px){
+@media only screen and(max-width: 450px){
   #listLeft {
     margin: 0 20vw 0 20vw;
     float: none;
@@ -16,25 +16,25 @@
     margin-bottom: 0;
   }
 }
-@media(max-width: 450px){
+@media only screen and(max-width: 450px){
   #listRight{
     padding-top: 0;
     margin: 0 20vw 0 20vw;
     float: none;
   }
 }
-@media(max-width: 450px){
+@media only screen and(max-width: 450px){
   #schoolmajor {
     text-align: center;
   }
 }
-@media(max-width: 800px){
+@media only screen and(max-width: 800px){
   body{
     overflow: auto;
   }
 }
 
-@media(max-width: 800px){
+@media only screen and(max-width: 800px){
   #right{
     padding: 0 1vw 0 1vw;
     margin-top: 0vh;
@@ -44,7 +44,7 @@
     width: 100vw;
   }
 }
-@media(max-width: 800px){
+@media only screen and(max-width: 800px){
   #left{
     background-size: 100vw 100vh;
     display: block;
