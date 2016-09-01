@@ -1,14 +1,14 @@
-@media screen and(max-width: 650px){
+@media screen and(max-width: 450px){
   .headerColor {
     font-size: 1.50em;
   }
 }
-@media screen and(max-width: 650px){
+@media screen and(max-width: 450px){
   .fontColorClass {
     text-align: center;
   }
 }
-@media screen and(max-width: 650px){
+@media screen and(max-width: 450px){
   #listLeft {
     margin: 0 20vw 0 20vw;
     float: none;
@@ -16,14 +16,14 @@
     margin-bottom: 0;
   }
 }
-@media screen and(max-width: 650px){
+@media screen and(max-width: 450px){
   #listRight{
     padding-top: 0;
     margin: 0 20vw 0 20vw;
     float: none;
   }
 }
-@media screen and(max-width: 650px){
+@media screen and(max-width: 450px){
   #schoolmajor {
     text-align: center;
   }
@@ -51,5 +51,10 @@
     clear: both;
     float: none;
     width: 100vw;
+  }
+}
+@media screen and(max-width: 800px){
+  #aboutButton{
+    clear: both;
   }
 }

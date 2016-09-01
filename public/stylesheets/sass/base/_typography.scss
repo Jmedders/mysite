@@ -2,7 +2,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     margin: 0 !important;
     padding: 0 !important;
-    overflow: hidden;
     background: #656782;
 }
 
@@ -17,11 +16,6 @@ a {
 #title{
   font-family: 'Balthazar';
   color: $lightsand;
-}
-#picturesOfMe{
-  height: 40%;
-  width: 40%;
-  border-radius: 30%;
 }
 #left{
   background-image: url("recent.jpg");
