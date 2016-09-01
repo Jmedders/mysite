@@ -28,11 +28,7 @@
     text-align: center;
   }
 }
-@media screen and(max-width: 800px){
-  body{
-    overflow: auto;
-  }
-}
+
 
 @media screen and(max-width: 800px){
   #right{
@@ -56,5 +52,10 @@
 @media screen and(max-width: 800px){
   #aboutButton{
     clear: both;
+  }
+}
+@media screen and(max-width: 1030px){
+  #schoolmajor {
+    text-align: center;
   }
 }

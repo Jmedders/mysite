@@ -35,7 +35,7 @@ a {
   }
 }
 #right{
-  margin-top: 12vh;
+  margin-top: 11vh;
   display: flex;
   overflow-y: auto !important;
   /*justify-content: center;*/
@@ -57,7 +57,7 @@ a {
 }
 .fontColorClass {
   color: $darkpurple;
-  padding-left: 4px;
+  padding: 0 1.5em 0 1.5em;
   text-align: justify;
 }
 #educationInfo{
